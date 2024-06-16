@@ -1,0 +1,124 @@
+.header {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	// background-color: #012340;
+	// background-color: $color-main;
+	// background: linear-gradient(343deg, rgba(1,35,64,1) 0%, rgba(35,64,89,1) 30%, rgba(56,82,104,1) 52%, rgba(135,149,161,1) 100%, rgba(237,235,235,1) 100%);
+	// background-image: linear-gradient(
+	// 	345deg,
+	// 	hsl(0deg 5% 93%) 0%,
+	// 	hsl(235deg 3% 67%) -1%,
+	// 	hsl(208deg 97% 13%) 100%
+	// );
+
+	&__bg-container {
+		background-image: url(../img/hero.jpg);
+		filter: brightness(140%);
+		background-position: top;
+		background-size: cover;
+		backface-visibility: visible;
+		width: 100%;
+		height: 100vh;
+
+		@media (max-width: 900px) {
+			background-image: url(../img/hero-mobile.jpg);
+			filter: brightness(130%);
+		}
+	}
+
+	// linear-gradient(to right bottom, rgba(4, 5, 6, 0.1)),
+	// rgba(4, 5, 6, 0.4) //black
+	// rgba(0, 34, 64, .7) // blue
+
+	// linear-gradient(to right bottom, rgba(4, 5, 6, 0.1)),
+	// rgba(4, 5, 6, 0.4) //black
+	// rgba(0, 34, 64, .7) // blue
+
+	//------------------
+	//TITLE
+
+	&__title {
+		position: absolute;
+		top: 40%;
+		left: 50%;
+		transform: translate(-50%, -20%);
+		text-align: center;
+		z-index: 200;
+	}
+
+	&__heading-primary {
+		// margin-top: 10rem;
+		font-size: 7vh;
+		font-weight: 700;
+		margin-bottom: 0.6rem;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		border-radius: 8px;
+		padding: 0.4rem;
+
+		@media (max-width: 768px) {
+			font-size: 6vh;
+		}
+
+		@media (max-width: 576px) {
+			font-size: 5vh;
+		}
+	}
+
+	&__accent {
+		color: $color-violet;
+		margin-right: 0.8rem;
+	}
+
+	&__accent-2 {
+		color: $color-light;
+		text-shadow: 0px 0px 35px rgba($color-violet, 0.8);
+	}
+
+	&__heading-secondary {
+		color: $color-light;
+		margin-bottom: 6rem;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		font-weight: 300;
+	}
+
+	&__cta {
+		margin: 0 auto;
+		color: $color-violet;
+		padding: 0.6rem 0.9rem;
+		border-radius: 50%;
+		border: none;
+		font-weight: 700;
+		letter-spacing: 2px;
+		background-color: $color-light;
+		box-shadow: 0px 0px 45px rgba(0, 140, 255, 60);
+		cursor: pointer;
+		text-transform: uppercase;
+		transition: transform 0.2s;
+		font-size: 2.3rem;
+		animation: pulse linear 1.1s infinite alternate;
+		width: 4.3rem;
+		height: 4.1rem;
+
+		a:link,
+		a:visited {
+			color: $color-violet;
+		}
+
+		i {
+			margin-left: 0.1rem;
+		}
+
+		@keyframes pulse {
+			from {
+				transform: scale(1);
+			}
+
+			to {
+				transform: scale(1.2);
+			}
+		}
+	}
+}

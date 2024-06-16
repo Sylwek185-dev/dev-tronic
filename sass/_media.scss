@@ -1,0 +1,34 @@
+@media (max-width: 900px) {
+	.nav__list {
+		display: none;
+	}
+
+	.nav__hamburger {
+		opacity: 1;
+	}
+}
+
+@media (min-width: 901px) {
+	.nav__list {
+		display: block;
+	}
+
+	.nav__hamburger {
+		visibility: hidden;
+	}
+}
+
+@media (max-width: 898px) and (orientation: landscape) {
+	.nav__mobile-menu ul li .nav-link {
+		font-size: 2rem;
+	}
+}
+
+@media (max-width: 898px) {
+	.nav__container {
+		justify-content: space-between;
+		z-index: 9999999;
+	}
+}
+
+

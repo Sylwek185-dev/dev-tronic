@@ -1,0 +1,119 @@
+.opinions {
+	margin: 3rem 0;
+	margin: 0 auto;
+	width: 100%;
+	padding: 3rem 0;
+
+	&__box {
+		margin: 0 auto;
+	}
+
+	&__slick {
+		margin: 0 auto;
+	}
+
+	&__circle {
+		width: 3rem;
+		height: 3rem;
+		border-radius: 50%;
+
+		&--1 {
+			background-color: rgb(138, 26, 26);
+			width: 3rem;
+			height: 3rem;
+			border-radius: 50%;
+		}
+
+		&--2 {
+			background-color: rgb(23, 47, 120);
+			width: 3rem;
+			height: 3rem;
+			border-radius: 50%;
+		}
+
+		&--3 {
+			background-color: rgb(194, 144, 52);
+			width: 3rem;
+			height: 3rem;
+			border-radius: 50%;
+		}
+
+		&--4 {
+			background-color: rgb(165, 24, 184);
+			width: 3rem;
+			height: 3rem;
+			border-radius: 50%;
+		}
+
+		&--5 {
+			background-color: rgb(71, 167, 30);
+			width: 3rem;
+			height: 3rem;
+			border-radius: 50%;
+		}
+	}
+
+	&__symbol {
+		color: $color-section;
+		font-size: 1.7rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		transform: translateY(21%);
+	}
+
+	&__card {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 100px 1fr 1fr 1fr;
+		padding: 2rem;
+
+		@media (min-width: 1440px) {
+			padding: 3rem;
+			margin: 0 2rem;
+		}
+
+		@media (max-width: 1440px) {
+			padding: 2rem;
+			margin: 0 2rem;
+		}
+
+		@media (max-width: 1024px) {
+			padding: 1rem;
+			margin: 0 2rem;
+		}
+	}
+
+	&__name {
+		font-size: 1rem;
+		font-weight: 600;
+	}
+
+	&__date {
+		font-weight: 0.9rem;
+	}
+
+	&__head {
+		display: flex;
+	}
+
+	&__stars {
+		font-size: 1.2rem;
+		margin: 0.8rem 0;
+	}
+}
+
+.heading-h2 {
+	padding-top: 0rem;
+}
+
+.boxx {
+	margin-left: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.fa-star {
+	color: $color-stars;
+}

@@ -1,0 +1,30 @@
+.customers {
+	margin-bottom: 3rem;
+
+	&__slick {
+		margin: 0 auto;
+		width: 100%;
+
+		img {
+			margin: 0 auto;
+			max-width: 160px;
+			max-height: 160px;
+			width: 100%;
+			height: 100%;
+		}
+	}
+
+	
+
+	.heading-h3 {
+		padding: 8rem 0 0 0;
+	}
+
+	&__carousel {
+		padding: 3rem 0 0 0;
+
+		.transform {
+			transform: translateY(-0.2rem) scale(0.6); //apple
+		}
+	}
+}
