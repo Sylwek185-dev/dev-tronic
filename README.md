@@ -1,6 +1,6 @@
 # Dev-Tronic Project
 
-[https://github.com/Sylwek185-dev/dev-tronic](https://github.com/Sylwek185-dev/dev-tronic)
+https://sylwek185-dev.github.io/dev-tronic/
 
 Prosty projekt przedstawiający stronę internetową zbudowaną przy użyciu HTML, CSS, JavaScript oraz zewnętrznego API.
 
@@ -39,4 +39,5 @@ git clone https://github.com/Sylwek185-dev/dev-tronic.git
 ```
 
 ### Kontakt
+
 Sylwek185 - sylwek185@op.pl
