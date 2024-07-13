@@ -6,14 +6,14 @@ Prosty projekt przedstawiający stronę internetową zbudowaną przy użyciu HTM
 
 ## Wprowadzenie
 
-Dev-Tronic Project to podstawowy projekt internetowy, który demonstruje podstawowe umiejętności tworzenia stron internetowych i integracji z zewnętrznymi zasobami.
+Dev-Tronic Project to projekt, który demonstruje umiejętności tworzenia stron internetowych i integracji z zewnętrznymi bibliotekami.
 
 ## Funkcje
 
 - **Zaawansowana funkcjonalność**: interaktywny interfejs użytkownika z zaawansowanymi funkcjami
 - **Responsywny design**: dostosowany do różnych rozdzielczości urządzeń
 - **Elastyczność i konfigurowalność**: możliwość dostosowania pod kątem różnych potrzeb użytkowników
-- **Integracja z zewnętrznymi API**: wykorzystanie zewnętrznych zasobów i usług
+- **Integracja z zewnętrznymi bibliotekami**: wykorzystanie zewnętrznych zasobów i usług
 
 ## Technologie
 
@@ -22,7 +22,7 @@ Projekt został zbudowany przy użyciu następujących technologii:
 - HTML5
 - CSS3
 - JavaScript
-- Zewnętrzne API
+- Biblioteka Slick
 
 ## Instalacja
 
